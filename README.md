@@ -1,4 +1,4 @@
-## API em Python criada com as seguintes funcionalidades:
+## API PDV PYTHON
 
 1 - Cadastrar um PDV(Ponto de Venda).
 
