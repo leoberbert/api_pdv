@@ -1,0 +1,66 @@
+{
+	"pdvs": [
+		{
+			"id": 52,
+			"tradingName": "Adega da Cerveja - Pinheiros",
+			"ownerName": "Ze da Silva",
+			"document": "144.2132.123891/000-1",
+			"coverageArea": {
+				"type": "MultiPolygon",
+				"coordinates": [
+					[
+						[
+							[
+								30,
+								20
+							],
+							[
+								45,
+								40
+							],
+							[
+								10,
+								40
+							],
+							[
+								30,
+								20
+							]
+						]
+					],
+					[
+						[
+							[
+								15,
+								5
+							],
+							[
+								40,
+								10
+							],
+							[
+								10,
+								20
+							],
+							[
+								5,
+								10
+							],
+							[
+								15,
+								5
+							]
+						]
+					]
+				]
+			},
+			"address": {
+				"type": "Point",
+				"coordinates": [
+					-46.57421,
+					-21.785741
+				]
+			}
+		}
+	]
+}
