@@ -20,14 +20,17 @@ Utilização:
 
 Os dados dos pontos de vendas, encontra-se no arquivo "source/pdvs.json", para carregá-los utilizaremos o comando abaixo:
 ```
+cd source
 curl -H "Content-Type: application/json" --data @pdvs.json http://localhost:5000/cadastro
 ```
-Após a carga dos dados acima, utilizaremos um arquivo json contendo o id do pdv para consulta, poderá ser utilizados o comando abaixo:
+Após a carga dos dados acima, utilizaremos um arquivo json "source/consulta.json" contendo o id do pdv para consulta, poderá ser utilizados o comando abaixo:
 ```
+cd source
 curl -H "Content-Type: application/json" --data @consulta.json http://localhost:5000/consulta
 ```
-Agora faremos a consulta do pdv mais próximo da sua residencia utilizando as coordenadas de lontitude e latitude, poderá ser utilizado o comando abaixo:
+Agora faremos a consulta do pdv mais próximo da sua residencia utilizando as coordenadas de lontitude e latitude "source/consultaprox.json", poderá ser utilizado o comando abaixo:
 ```
+cd source
 curl -H "Content-Type: application/json" --data @consultaprox.json http://localhost:5000/consultaprox
 ```
 OBS: Os comandos exemplificados acima, foram executados na máquina onde o docker está em execução. Caso utilizem outra máquina, o endereço deverá ser substituído pela máquina na qual o docker está em execução.
