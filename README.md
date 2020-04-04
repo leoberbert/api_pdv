@@ -4,7 +4,7 @@
 
 2 - Consultar o PDV(Ponto de Venda pelo ID) e retornar o resultado com formato json.
 
-3 - Consultar através das coordenadas de longitude e latitude se um PDV atende a sua região e localizar o mais próximo com base nas informações de localização fornecidas.
+3 - Consultar através das coordenadas de longitude e latitude se um PDV atende a sua região e localizar o mais próximo com base nas informações de localização fornecidas. (GeoJSON)
 
 O armazenamento dos dados (Database) é feito no ElasticSearch devido à sua rapidez nas consultas por ser um banco de dados NoSQL.
 
