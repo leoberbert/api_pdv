@@ -14,6 +14,13 @@ git clone https://github.com/leoberbert/api_pdv.git
 
 cd api_pdv
 
+```
+Criar o diretório onde o ElasticSearch irá armazenar os dados
+```
+mkdir data_elastic
+```
+Iniciar o Docker Compose:
+```
 docker-compose up -d
 ```
 Utilização:
